@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="manifest.json">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="Description" content="ProDeFi Block Explorer">
+
+  <title>ProDeFi Block Explorer</title>
+
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#ffffff">
+
+  <meta property="og:url" content="https://explorer.prodefi.io/">
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="ProDeFi Block Explorer with transactions, validators.">
+  <meta property="og:title" content="ProDeFi Block Explorer">
+  <meta property="og:site_name" content="ProDeFi">
+  <meta property="og:see_also" content="https://explorer.prodefi.io/">
+
+  <meta name="author" content="ProDeFi">
+  <meta name="description" content="ProDeFi Block Explorer with transactions, validators.">
+
+  <meta itemprop="name" content="ProDeFi Block Explorer">
+  <meta itemprop="description" content="ProDeFi Block Explorer with transactions, validators.">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://explorer.prodefi.io/">
+  <meta name="twitter:title" content="ProDeFi Block Explorer">
+  <meta name="twitter:description" content="ProDeFi Block Explorer with transactions, validators.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Display a message if JS has been disabled on the browser. -->
+<noscript>If you're seeing this message, that means
+  <strong>JavaScript has been disabled on your browser</strong>, please
+  <strong>enable JS</strong> to make this app work.
+</noscript>
+
+<div id="app"></div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-RTPW9RroD90bQg2eJTbzUrvZHbncOLY"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(registrations => {
+      for (const registration of registrations) {
+        registration.unregister()
+      }
+    });
+    if (window.caches) {
+      window.caches.keys().then(res => {
+        if (!res) {
+          console.log('No cache === ', res);
+        }
+        console.log(res);
+        res.forEach(elem => {
+          window.caches.delete(elem);
+        });
+      });
+    }
+  }
+</script>
+
+<script>var HS_PROJECT_ID = "cjoy79ojn1p1a0951fgl0aalz";</script>
+<script src="https://hintsystem.com/injector/m.js"></script>
+
+</body>
+
+</html>

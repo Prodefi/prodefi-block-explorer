@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "elefos-monitor-front",
+      "script": "npm",
+      "args": "run start:prod",
+      "max_memory_restart": "50M"
+    }
+  ]
+}

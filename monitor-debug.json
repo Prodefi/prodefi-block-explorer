@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "elefos-monitor-front-debug",
+      "script": "npm",
+      "args": "run start"
+    }
+  ]
+}

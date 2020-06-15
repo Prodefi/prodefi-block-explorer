@@ -237,7 +237,7 @@
     "circular-dependency-plugin": "5.0.2",
     "css-loader": "0.28.11",
     "empty-module": "0.0.2",
-    "eslint": "^4.10.0",
+    "eslint": "^4.18.2",
     "eslint-config-airbnb": "17.0.0",
     "eslint-config-airbnb-base": "13.0.0",
     "eslint-config-prettier": "^2.9.0",

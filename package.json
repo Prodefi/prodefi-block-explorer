@@ -180,7 +180,7 @@
     "invariant": "2.2.4",
     "ip": "1.1.5",
     "jquery": "^3.4.1",
-    "lodash": "4.17.10",
+    "lodash": "4.17.13",
     "minimist": "1.2.0",
     "moment": "^2.23.0",
     "moment-range": "^4.0.2",

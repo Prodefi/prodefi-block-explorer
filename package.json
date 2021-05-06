@@ -171,7 +171,7 @@
     "eosjs-api": "^7.0.3",
     "express": "4.16.3",
     "grid-styled": "^4.2.0",
-    "highcharts": "^8.0.0",
+    "highcharts": "^9.0.0",
     "highcharts-react-official": "^3.0.0",
     "history": "4.7.2",
     "i": "^0.3.6",

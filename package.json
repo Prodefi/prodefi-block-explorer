@@ -174,7 +174,7 @@
     "highcharts": "^8.0.0",
     "highcharts-react-official": "^3.0.0",
     "history": "4.7.2",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "i18next": "^11.5.0",
     "i18next-browser-languagedetector": "^2.2.3",
     "invariant": "2.2.4",

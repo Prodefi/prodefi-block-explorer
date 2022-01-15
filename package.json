@@ -258,7 +258,7 @@
     "offline-plugin": "5.0.5",
     "prettier": "^1.14.0",
     "rimraf": "2.6.2",
-    "shelljs": "0.8.2",
+    "shelljs": "0.8.5",
     "style-loader": "0.21.0",
     "uglifyjs-webpack-plugin": "^1.2.6",
     "webpack": "4.16.4",

@@ -169,7 +169,7 @@
     "d3": "^5.7.0",
     "eosjs": "^16.0.0",
     "eosjs-api": "^7.0.3",
-    "express": "4.16.3",
+    "express": "4.17.3",
     "grid-styled": "^4.2.0",
     "highcharts": "^8.0.0",
     "highcharts-react-official": "^3.0.0",
